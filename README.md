@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# totality-frontend-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About:
 
-## Available Scripts
+This project is a React-based web application for finding and booking vacation rentals. It includes features for viewing hotels, booking them, and managing a cart. The project consists of several key components:
+Key Components
+Home Component
+Displays a list of hotels.
+Allows users to book hotels.
+Allows users to add hotels to a cart.
+Orders Component
+Shows the list of booked hotels.
+Cart Component
+Displays the hotels added to the cart.
+Allows users to book hotels from the cart.
+Allows users to remove hotels from the cart.
 
-In the project directory, you can run:
+# Screenshots
 
-### `npm start`
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/e01a29d1-2390-4e59-9074-41500c06b3db">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/ca917cdb-e6d6-45a1-b005-d6b59d6bf428">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/9953adb6-dfca-49fc-92ef-8b78901f34ae">
 
-### `npm test`
+<img width="1078" alt="image" src="https://github.com/user-attachments/assets/30d47629-a3f9-417d-a82c-a34e939ac146">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/a22ba2ec-775c-4794-9fd8-ee5e70cf75ce">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1078" alt="image" src="https://github.com/user-attachments/assets/e3b63f0d-482a-487e-9ed4-4a7781aae8dd">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/ecce79d2-1d2a-4b15-a2a8-2c0c79a70b90">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/2ae18648-17dd-439e-981c-b3a109b62357">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="473" alt="image" src="https://github.com/user-attachments/assets/a5fb8d1f-9f09-4fe2-9024-3a6f6eafda96">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/defa6bc0-5410-43ff-9622-3183b89eab03">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/ebe46ab7-5c5d-437f-8fe8-4ca9f5452c8b">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/59200816-d651-4f02-b0c3-cf2dee30b5ba">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="423" alt="image" src="https://github.com/user-attachments/assets/5685491f-2f68-4673-b10d-b57e4dff77b4">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
