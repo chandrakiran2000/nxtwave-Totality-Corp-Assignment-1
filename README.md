@@ -1,4 +1,4 @@
-# totalitycorp-frontend-challenge
+# totality-frontend-challenge
 
 ## About:
 
@@ -14,3 +14,8 @@ Cart Component
 Displays the hotels added to the cart.
 Allows users to book hotels from the cart.
 Allows users to remove hotels from the cart.
+
+# Screenshots
+
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/e01a29d1-2390-4e59-9074-41500c06b3db">
+
