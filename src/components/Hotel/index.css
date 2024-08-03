@@ -1,0 +1,83 @@
+
+.hotel-card{
+    border: 1px solid #d7dfe9;
+    border-radius: 8px;
+    width: 250px;
+    height: 480px;
+    min-width: 250px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+}
+@media screen and (min-width: 988px){
+    .hotel-card{
+        flex-grow: 0;
+        width: 240px;
+    }
+    
+}
+.sub-card{
+    width: 90%;
+    color: #475569;
+}
+.hotel-img{
+    width: 100%;
+    height: 150px;
+    align-self: center;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.hotel-title{
+    font-size: 18px;
+}
+.hotel-location{
+    font-size: 15px;
+}
+.hotel-description{
+    font-size: 15px;
+}
+.hotel-price{
+    font-size: 15px;
+}
+.price-text{
+color: #0f172a;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+
+.cart-btn, .book-btn{
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 8px 40px rgb(252, 251, 251);
+  width: 100%;
+  margin-top: 5px;
+}
+.cart-btn {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+  }
+  
+  .cart-btn:hover {
+    background-color: #ddb347;
+  }
+.book-btn{
+  background-color: #0071c2;
+  border: 1px solid #005f8c;
+  color: #fff;
+}
+
+.book-btn:hover {
+    background-color: #005f8c;
+  }

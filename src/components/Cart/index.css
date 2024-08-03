@@ -1,0 +1,252 @@
+.carts-card{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.no-cart-card{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.no-cart-img{
+    width: 40%;
+    min-height: 250px;
+    max-height: 300px;
+}
+
+.my-carts{
+    text-align: center;
+    font-size: 28px;
+    color: #0f172a;
+    margin-top: 20px;
+}
+
+.carts-maincard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.cart-card{
+    align-self: center;
+    border: 1px solid #d7dfe9;
+    border-radius: 8px;
+    height: px;
+    min-width: 250px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-grow: 1;
+    margin-top: 10px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    flex-shrink: 0;
+
+}
+
+.cart-sub-card{
+    width: 80%;
+    color: #475569;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width : 768px){
+    .cart-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.cart-img{
+    width: 150px;
+    height: 100px;
+    align-self: center;
+    border-radius: 6px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.cart-details-card{
+    align-self: center;
+    width: 20%;
+}
+.cart-title{
+    font-size: 18px;
+}
+.cart-location{
+    font-size: 15px;
+}
+.cart-id{
+    font-size: 15px;
+}
+.cart-price{
+    font-size: 15px;
+}
+.price-text{
+color: #0f172a;
+font-size: 18px;
+font-weight: bold;
+}
+
+@media screen and (min-width : 596px) and (max-width: 767px){
+    .cart-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cart-img{
+        width: 120px;
+        height: 70px;
+        align-self: center;
+        border-radius: 6px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .cart-details-card{
+        align-self: center;
+        width: 30%;
+    }
+    .cart-title{
+        font-size: 16px;
+    }
+    .cart-location{
+        font-size: 13px;
+    }
+    .cart-id{
+        font-size: 13px;
+    }
+    .cart-price{
+        font-size: 13px;
+    }
+    .price-text{
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: bold;
+    }
+}
+
+.btns-card{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+}
+
+.check-btn, .remove-btn{
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 8px 40px rgb(252, 251, 251);
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    align-self: center;
+  }
+  .check-btn{
+    background-color: #0071c2;
+    border: 1px solid #005f8c;
+    color: #fff;
+  }
+  
+  .check-btn:hover {
+      background-color: #005f8c;
+    }
+    .remove-btn{
+        background-color: red;
+        border: 1px solid red;
+        color: #fff;
+      }
+      
+      .remove-btn:hover {
+          background-color: red;
+        }
+@media screen and (max-width : 595px){
+    .carts-maincard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-card{
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cart-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cart-img{
+        width: 75%;
+        height: 120px;
+        align-self: center;
+        border-radius: 6px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .cart-details-card{
+        align-self: center;
+        width: 75%;
+    }
+    .cart-title{
+        font-size: 16px;
+    }
+    .cart-location{
+        font-size: 13px;
+    }
+    .cart-id{
+        font-size: 13px;
+    }
+    .cart-price{
+        font-size: 13px;
+    }
+    .price-text{
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .btns-card{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 100%;
+    }
+    .check-btn{
+        width: 75%;
+    }
+    .remove-btn{
+        width: 75%;
+    }
+}
+
+
+
+

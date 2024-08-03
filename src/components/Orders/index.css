@@ -1,0 +1,227 @@
+.orders-card{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.no-order-card{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.no-order-img{
+    width: 40%;
+    min-height: 250px;
+    max-height: 300px;
+}
+
+.my-orders{
+    text-align: center;
+    font-size: 28px;
+    color: #0f172a;
+    margin-top: 20px;
+}
+
+.orders-maincard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.order-card{
+    align-self: center;
+    border: 1px solid #d7dfe9;
+    border-radius: 8px;
+    height: px;
+    min-width: 250px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-grow: 1;
+    margin-top: 10px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    flex-shrink: 0;
+
+}
+
+.order-sub-card{
+    width: 80%;
+    color: #475569;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width : 768px){
+    .order-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.order-img{
+    width: 150px;
+    height: 100px;
+    align-self: center;
+    border-radius: 6px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.order-details-card{
+    align-self: center;
+    width: 20%;
+}
+.order-title{
+    font-size: 18px;
+}
+.order-location{
+    font-size: 15px;
+}
+.order-id{
+    font-size: 15px;
+}
+.order-price{
+    font-size: 15px;
+}
+.price-text{
+color: #0f172a;
+font-size: 18px;
+font-weight: bold;
+}
+
+@media screen and (min-width : 596px) and (max-width: 767px){
+    .order-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .order-img{
+        width: 120px;
+        height: 70px;
+        align-self: center;
+        border-radius: 6px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .order-details-card{
+        align-self: center;
+        width: 20%;
+    }
+    .order-title{
+        font-size: 16px;
+    }
+    .order-location{
+        font-size: 13px;
+    }
+    .order-id{
+        font-size: 13px;
+    }
+    .order-price{
+        font-size: 13px;
+    }
+    .price-text{
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: bold;
+    }
+}
+
+.check-btn{
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 8px 40px rgb(252, 251, 251);
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+    align-self: center;
+  }
+  .check-btn{
+    background-color: #0071c2;
+    border: 1px solid #005f8c;
+    color: #fff;
+  }
+  
+  .check-btn:hover {
+      background-color: #005f8c;
+    }
+@media screen and (max-width : 595px){
+    .orders-maincard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .order-card{
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .order-sub-card{
+        width: 90%;
+        color: #475569;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .order-img{
+        width: 75%;
+        height: 120px;
+        align-self: center;
+        border-radius: 6px;
+        object-fit: cover;
+        align-self: center;
+    }
+    
+    .order-details-card{
+        align-self: center;
+        width: 75%;
+    }
+    .order-title{
+        font-size: 16px;
+    }
+    .order-location{
+        font-size: 13px;
+    }
+    .order-id{
+        font-size: 13px;
+    }
+    .order-price{
+        font-size: 13px;
+    }
+    .price-text{
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .check-btn{
+        width: 75%;
+    }
+}
+
+
+
+
