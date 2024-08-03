@@ -17,7 +17,7 @@ Allows users to remove hotels from the cart.
 
 # Screenshots
 
-<img width="1079" alt="image" src="https://github.com/user-attachments/assets/e01a29d1-2390-4e59-9074-41500c06b3db">
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/eadb391b-b835-4e6a-b564-fe45ae95de66">
 
 <img width="1080" alt="image" src="https://github.com/user-attachments/assets/ca917cdb-e6d6-45a1-b005-d6b59d6bf428">
 
@@ -35,7 +35,8 @@ Allows users to remove hotels from the cart.
 
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/2ae18648-17dd-439e-981c-b3a109b62357">
 
-<img width="473" alt="image" src="https://github.com/user-attachments/assets/a5fb8d1f-9f09-4fe2-9024-3a6f6eafda96">
+<img width="618" alt="image" src="https://github.com/user-attachments/assets/ee954297-804a-442f-85ce-9507de78d865">
+
 
 <img width="403" alt="image" src="https://github.com/user-attachments/assets/defa6bc0-5410-43ff-9622-3183b89eab03">
 
