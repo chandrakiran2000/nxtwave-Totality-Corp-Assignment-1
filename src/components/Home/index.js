@@ -197,7 +197,7 @@ class Home extends Component {
                   </select>
                   <select value={amenitie} onChange={this.handleAmenitieChange} className="select">
                     <option value="" disabled>
-                      Select Location
+                      Select Amenities
                     </option>
                     {amenitiesArray.map(each => (
                       <option value={each}>{each}</option>
